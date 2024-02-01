@@ -11,49 +11,38 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Information and Computing Science, Peking University, 2020 - 2024 (expected)
 
-Work experience
+Professional Experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2023 – August 2023: Computer Vision Algorithm Intern
+  * Beijing Baidu Netcom Science Technology Co. Ltd., Peking, China
+  * Involved in a Text-to-Image Generation Project; worked on image and text processing and data generation.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* June 2022 – Sept. 2022: Research Intern
+  * Under Professor Shanghang Zhang
+  * Focused on Autonomous Driving Perception Research; engaged in algorithm research, replication, and testing.
   
-Skills
+Projects
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Dec. 2022: Enhanced Reading Experience for the Visually Impaired
+  * Collaborative research project on transforming scanned books into full-text formats with descriptive illustrations for visually impaired individuals.
 
-Publications
+* Nov. 2022: Mini Compiler Implementation
+  * Implemented a small-scale compiler in C++ for sysy programs to RISCV programs.
+
+* May 2022: Interactive Particle System Using OpenGL
+  * Developed an interactive particle system utilizing OpenGL.
+
+Technical Skills
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
+* Programming Languages: Python, C/C++, JavaScript, SQL
+* Developer Tools: Vim, VS Code, PyCharm, CLion, Xcode, Google Colab
+* Technologies/Frameworks: Linux, MacOS, Git, PyTorch
+* Other: LaTeX, Markdown, Bash
   
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
