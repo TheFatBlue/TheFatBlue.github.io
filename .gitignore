@@ -1,0 +1,8 @@
+.DS_Store
+
+# Source / working files (not for the public site)
+main.tex
+aegis.txt
+papers.txt
+self.png
+Screenshot*.png

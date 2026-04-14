@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weiyuan Ding</title>
+  <meta name="description" content="Weiyuan Ding — incoming PhD at NCSU. Research on robustness, evaluation, and safety of code LLMs and agents." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<main>
+
+  <header class="intro">
+    <div class="intro-text">
+      <h1>Weiyuan Ding</h1>
+      <p class="affil">
+        Incoming Ph.D. Student, Computer Science<br />
+        North Carolina State University &middot; Fall 2026<br />
+        Advisor: Prof. Bowen Xu
+      </p>
+      <p class="links">
+        <a href="mailto:thefatblue@gmail.com">Email</a> &middot;
+        <a href="CV.pdf">CV</a> &middot;
+        <a href="https://scholar.google.com/citations?user=HGMx0AQAAAAJ">Google Scholar</a> &middot;
+        <a href="https://github.com/TheFatBlue">GitHub</a> &middot;
+        <a href="https://www.linkedin.com/in/weiyuan-ding-0b034b318/">LinkedIn</a>
+      </p>
+      <p class="bio">
+        I am an incoming Ph.D. student at <strong>NC State</strong>, joining
+        Prof. Bowen Xu's group in Fall 2026. I currently work as a graduate
+        researcher at NCSU, where I focus on the
+        <strong>robustness, evaluation, and safety of large language models for code</strong>
+        and on <strong>agentic systems</strong> for software engineering tasks.
+        Before NCSU, I received my B.S. in Information and Computing Science
+        from Peking University.
+      </p>
+    </div>
+    <div class="intro-photo">
+      <img src="assets/profile.jpg" alt="Portrait of Weiyuan Ding" />
+    </div>
+  </header>
+
+  <section>
+    <h2>News</h2>
+    <ul class="news">
+      <li><span class="date">Mar 2026</span><span>Received Ph.D. offer from NCSU; joining Prof. Bowen Xu's group in Fall 2026.</span></li>
+      <li><span class="date">Mar 2026</span><span>New preprint: <em>AEGIS</em> — graph-guided multi-agent vulnerability reasoning. <a href="#aegis">Details</a>.</span></li>
+      <li><span class="date">Jul 2025</span><span>Wrapped up a summer internship at <a href="https://www.hedra.com/">Hedra</a>, San Francisco.</span></li>
+      <li><span class="date">May 2025</span><span>Preprint: <em>EVALOOOP</em> — loop-based robustness evaluation for code LLMs. <a href="https://evalooop.github.io">Leaderboard</a>.</span></li>
+      <li><span class="date">Mar 2025</span><span>Preprint: <em>Smaller = Weaker?</em> — robustness of quantized code LLMs. <a href="https://arxiv.org/abs/2506.22776">arXiv</a>.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Publications</h2>
+    <p class="note">See <a href="https://scholar.google.com/citations?user=HGMx0AQAAAAJ">Google Scholar</a> for the full list.</p>
+
+    <article class="pub" id="aegis">
+      <h3>AEGIS: From Clues to Verdicts — Graph-Guided Deep Vulnerability Reasoning via Dialectics and Meta-Auditing</h3>
+      <p class="authors"><a href="https://tomasandersonfang.github.io">Sen Fang</a>, <strong>Weiyuan Ding</strong>, Zheng Cao, Zhibo Yang, Bowen Xu</p>
+      <p class="venue">Preprint, 2026. <a href="https://arxiv.org/abs/2603.20637">arXiv</a></p>
+      <p class="abstract">
+        A multi-agent framework that grounds LLM-based vulnerability detection in a closed
+        factual substrate. AEGIS reconstructs per-variable dependency chains over a
+        repository-level Code Property Graph, then uses a dialectical Verifier and an
+        independent Audit Agent (with veto power) to suppress hallucinated verdicts.
+        Sets a new state of the art on PrimeVul (122 pair-wise correct predictions —
+        first to surpass 100), reducing false positives by up to 54.40% at $0.09 per
+        sample with no task-specific training.
+      </p>
+    </article>
+
+    <article class="pub" id="evalooop">
+      <h3>EVALOOOP: A Self-Consistency-Centered Framework for Assessing Large Language Model Robustness in Programming</h3>
+      <p class="authors"><a href="https://tomasandersonfang.github.io">Sen Fang</a>, <strong>Weiyuan Ding</strong>, Mingrui Zhang, Zhanghao Chen, Bowen Xu</p>
+      <p class="venue">Preprint, 2026. <a href="https://arxiv.org/abs/2505.12185">arXiv</a> &middot; <a href="https://evalooop.github.io">Leaderboard</a> &middot; <a href="https://github.com/evalooop/EvaLooop">Code</a></p>
+      <p class="abstract">
+        A loop-based robustness evaluation that alternates code generation and
+        summarization on the same task. Applied to 100+ LLMs (incl. Claude Opus 4,
+        DeepSeek-V3), we observe a 2.65%–47.62% pass@1 drop over 10 loops, and find
+        that robustness is not strictly tied to initial accuracy.
+      </p>
+    </article>
+
+    <article class="pub" id="quant">
+      <h3>Smaller = Weaker? Benchmarking Robustness of Quantized LLMs in Code Generation</h3>
+      <p class="authors"><a href="https://tomasandersonfang.github.io">Sen Fang</a>, <strong>Weiyuan Ding</strong>, Antonio Mastropaolo, Bowen Xu</p>
+      <p class="venue">Preprint, 2025. <a href="https://arxiv.org/abs/2506.22776">arXiv</a></p>
+      <p class="abstract">
+        A study of how quantization affects robustness of code LLMs across LLaMA,
+        DeepSeek, CodeGen, and StarCoder (350M–33B). Counter-intuitively, quantized
+        models show higher robustness to adversarial and noisy inputs (51.59% vs.
+        42.86%) than their full-precision counterparts.
+      </p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul class="entries">
+      <li>
+        <div class="entry-head">
+          <span class="org">Hedra Inc.</span>
+          <span class="date">May 2025 &ndash; Jul 2025</span>
+        </div>
+        <div class="entry-sub">Machine Learning / Data Engineering Intern &middot; San Francisco, CA</div>
+        <ul>
+          <li>Scaled video data processing throughput from &lt;10k/day to <strong>400k clips/day</strong> (~40&times;) by optimizing I/O (rclone), SLURM parallelism, and module-level compute; built a fully automated raw-to-processed pipeline.</li>
+          <li>Built a unified evaluation framework used across model benchmarking and RL training loops; standardized metrics and automated reporting.</li>
+        </ul>
+      </li>
+      <li>
+        <div class="entry-head">
+          <span class="org">North Carolina State University</span>
+          <span class="date">Feb 2025 &ndash; Dec 2025</span>
+        </div>
+        <div class="entry-sub">Teaching Assistant / Grader &middot; Raleigh, NC</div>
+        <ul>
+          <li><em>CSC 591 — Generative AI for Software Engineering</em> (Fall 2025): designed rubrics, graded LLM-for-SE projects, supported evaluation scripts.</li>
+          <li><em>CSC 326 — Software Engineering</em> (Spring 2025): assisted instruction and grading; mentored teams on collaborative development.</li>
+        </ul>
+      </li>
+      <li>
+        <div class="entry-head">
+          <span class="org">Baidu</span>
+          <span class="date">May 2023 &ndash; Aug 2023</span>
+        </div>
+        <div class="entry-sub">Computer Vision Algorithm Intern &middot; Beijing, China</div>
+        <ul>
+          <li>Standardized data formats and streamlined text-to-image workflows; contributed to data capture and processing pipelines.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul class="entries">
+      <li>
+        <div class="entry-head">
+          <span class="org">North Carolina State University</span>
+          <span class="date">Aug 2026 &ndash;</span>
+        </div>
+        <div class="entry-sub">Ph.D. in Computer Science (incoming) &middot; Advisor: Prof. Bowen Xu</div>
+      </li>
+      <li>
+        <div class="entry-head">
+          <span class="org">North Carolina State University</span>
+          <span class="date">Aug 2024 &ndash; May 2026</span>
+        </div>
+        <div class="entry-sub">M.S. in Computer Science &middot; GPA 4.0 / 4.0</div>
+      </li>
+      <li>
+        <div class="entry-head">
+          <span class="org">Peking University</span>
+          <span class="date">Sept 2020 &ndash; July 2024</span>
+        </div>
+        <div class="entry-sub">B.S. in Information and Computing Science</div>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Weiyuan Ding. Last updated April 2026.</p>
+  </footer>
+
+</main>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
